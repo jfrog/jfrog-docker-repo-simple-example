@@ -1,6 +1,6 @@
 # Getting started with JFrog Docker Repos - Example
 
-This repo contains a simple Dockerfile that can be used to exercise Docker repositories in Artifactory. 
+This repo contains a simple Dockerfile that can be used to exercise Docker repositories in Artifactory via the [Docker Challenge](https://jfrog.com/content/docker-tshirt-challenge/). 
 
 This Dockerfile assumes the following:
 * A local docker repository with the name "docker-dev-local" has been created in Artifactory
