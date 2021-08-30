@@ -1,0 +1,23 @@
+version: "3.2"
+
+services:
+  api:
+    build: .
+    image: docker-compose-go
+    container_name: 'go-docker'
+    ports:
+    - "8080:8081"
+    networks: 
+      - vicky_network
+    
+  nginx:
+    container_name: 'nginx-container'
+    image: "nginx"
+    ports:
+    - "8083:80"
+    depends_on:
+      - api
+  
+networks:
+  vicky_network:
+    driver: bridge
