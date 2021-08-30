@@ -7,6 +7,8 @@ RUN mkdir /app
 ADD . /app
 WORKDIR /app
 
+RUN go get -d github.com/gorilla/mux
+
 RUN CGO_ENABLED=0 GOOS=linux go build -o main ./...
 CMD ["./main"]
 
