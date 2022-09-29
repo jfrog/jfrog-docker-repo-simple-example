@@ -8,4 +8,4 @@ This Dockerfile assumes the following:
 * A virtual docker repository with the name "docker" has been created in Artifactory and includes the "docker-dev-local" and "docker-hub-remote" repositories with the "docker-dev-local" repository set as the Default Deployment Repository.
 
 To learn more about JFrog Platform integration with Docker, visit [Docker Registry Documentation](https://www.jfrog.com/confluence/display/JFROG/Docker+Registry).
-
+ #follow the above link and don't forget to give stars to this repo
